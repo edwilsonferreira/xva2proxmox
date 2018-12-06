@@ -2,7 +2,7 @@
 Procedimentos de migração de máquinas virtuais do Xen para Proxmox (5.2-1)
 
 1) Copiar a imagem da máquina virtual (xva) para o servidor proxmox
-estacao# scp arquivo.xva nome@ip_proxmox:/root
+1.1) estacao# scp arquivo.xva nome@ip_proxmox:/root
 2) Descompactar o arquivo da máquina virtual. Será criado um diretório com nome parecido com Ref:999
 proxmox#  tar -xvf arquivo.xva
 3) Converter o diretório para o format raw
